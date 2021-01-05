@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "npm @11ty/eleventy --serve"
+    "test": "npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",
