@@ -17,3 +17,4 @@ fields:
   label: buttonLink
 pages:
 - "./simple-page.md"
+- "./this-is-a-new-page.md"
