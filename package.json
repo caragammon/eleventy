@@ -1,0 +1,21 @@
+{
+  "name": "eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_site/index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caragammon/eleventy.git"
+  },
+  "author": "Cara Gammon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caragammon/eleventy/issues"
+  },
+  "homepage": "https://github.com/caragammon/eleventy#readme"
+}
