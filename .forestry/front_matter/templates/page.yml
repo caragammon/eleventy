@@ -15,3 +15,5 @@ fields:
 - type: text
   name: buttonLink
   label: buttonLink
+pages:
+- "./simple-page.md"
