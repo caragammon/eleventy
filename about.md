@@ -1,7 +1,7 @@
 ---
 tags: page
 layout: blog-post.njk
-title: Home
+title: About
 button: This is my button text
 buttonLink: http://google.com
 ---

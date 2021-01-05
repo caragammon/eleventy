@@ -10,6 +10,11 @@ title: My Rad Blog
     <title>{{ title }}</title>
   </head>
   <body>
+    {%- for page in collections.page -%}
+      <li{% if page.url == page.url %} aria-current="page"{% endif %}><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    {%- endfor -%}
+
+    <h1>BLOG</h1>
     {{ content | safe }}
     <a href="{{buttonLink}}">{{button}}</a>
   </body>
